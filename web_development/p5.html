@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styling links and button</title>
+
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color: blueviolet;
+            padding: 34px;
+            margin: auto;
+            width: 900px;
+        }
+
+        a{
+           text-decoration: none;  /* to remove underline from link */
+           color: black;
+        }
+
+        a:hover{
+            color: rgb(84, 6, 6);
+            background-color: aqua;
+        }
+
+        a:visited{
+            background-color: wheat;
+        }
+        a:active{
+            background-color: yellow;
+        }
+        .btn{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            background-color: brown;
+            border: none;
+            padding: 6px;
+            cursor: pointer;
+            font-size: 13px;
+            font-style: italic;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>this is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias incidunt corrupti ea. Cupiditate adipisci accusamus sequi quisquam voluptatum maiores, corporis delectus?</p>
+        <a href="https://google.com" target="_blank" class="btn" > read more</a>
+        <button class="btn">contact us</button>
+    </div>
+</body>
+</html>
